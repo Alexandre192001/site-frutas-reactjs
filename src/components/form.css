@@ -60,8 +60,7 @@
 .btns-form{
   display: flex;
 }
-.btn-entrar,
-.btn-cadastro{
+.btn-entrar{
   border: none;
   background-color:#07a;
   padding:.4rem 2rem;
@@ -87,7 +86,7 @@
     flex-direction: column;
   }
 
-  .btn-entrar,.btn-cadastro{
+  .btn-entrar{
     padding:.1rem .1rem;
   }
 }

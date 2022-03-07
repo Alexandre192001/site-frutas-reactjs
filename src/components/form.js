@@ -32,7 +32,6 @@ function FormSite(){
 
         <div className="inputs-wrapper btns-form">
           <button className="btn-entrar">Entrar</button>
-          <button className="btn-cadastro">Cadastrar</button>
         </div>
 
       </form>
