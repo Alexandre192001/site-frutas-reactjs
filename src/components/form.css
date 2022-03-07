@@ -1,0 +1,93 @@
+.sessao-wrapper{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image: linear-gradient(to left,
+  rgb(33, 33, 39),
+  rgb(26, 44, 58));
+}
+
+.form-site{
+  position: relative;
+  border:solid 1px #fff;
+  border-radius: .4rem;
+  color: #fff;
+  display:flex;
+  height:30rem;
+  width: 30%;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo{
+  position: absolute;
+  width: 50%;
+  top: 0;
+  margin: 1rem;
+  border-radius: .4rem;
+}
+.title-form{
+  position: absolute;
+  top:-3rem;
+  left: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px 2px #000;
+  border-radius: .4rem;
+  background-color: rgb(51, 85, 170);
+  padding:1rem 5rem;
+
+}
+.inputs-wrapper{
+  position: relative;
+  top:5rem;
+}
+.inputs-wrapper>input{
+  outline:none;
+  margin:.4rem;
+  width: 90%;
+  height:2rem;
+}
+.inputs-wrapper>input:hover~label{
+  top: -.5rem;
+  font-size: 10px;
+  letter-spacing:5px;
+  color: #fff;
+}
+.btns-form{
+  display: flex;
+}
+.btn-entrar,
+.btn-cadastro{
+  border: none;
+  background-color:#07a;
+  padding:.4rem 2rem;
+  border-radius: .2rem;
+  height: 2rem;
+  margin:.4rem;
+  cursor: pointer;
+  color: #fff;
+  font-family:monospace ;
+}
+
+@media(max-width:870px){
+  .title-form{
+    padding:1rem 1rem;
+  }
+  .btns-form{
+    flex-direction: column;
+  }
+}
+
+@media(max-width:447px){
+  .btns-form{
+    flex-direction: column;
+  }
+
+  .btn-entrar,.btn-cadastro{
+    padding:.1rem .1rem;
+  }
+}
