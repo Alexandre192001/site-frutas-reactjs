@@ -72,6 +72,16 @@
   font-family:monospace ;
 }
 
+.btn-voltar{
+  text-decoration: none;
+  display:block;
+  margin: .4rem 0 ;
+  padding: .5rem .5rem ;
+  background-color: #087a;
+  color: #fff;
+  border-radius:.3rem ;
+}
+
 @media(max-width:870px){
   .title-form{
     padding:1rem 1rem;
