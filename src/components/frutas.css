@@ -11,7 +11,7 @@
 }
 .sessao-frutas{
   position: relative;
-  height:580vh;
+  height:600vh;
   width: 100%;
   background-color:var(--background-color-1--);
   gap: 1rem;
@@ -50,4 +50,56 @@
 .info-fruta>ul>li{
   margin: 1rem;
 }
+
+
+
+
+@media (max-width:1109px){
+  .sessao-frutas{
+    height:800vh;
+  }
+}
+
+@media (max-width:1076px){
+  .sessao-frutas{
+    height:850vh;
+  }
+}
+
+@media (max-width:1068px){
+  .sessao-frutas{
+    height:870vh;
+  }
+}
+
+@media (max-width:1027px){
+  .sessao-frutas{
+    height:910vh;
+  }
+}
+@media (max-width:990px){
+  .sessao-frutas{
+    height:950vh;
+  }
+}
+
+@media (max-width:877px){
+  .sessao-frutas{
+    height: 1000vh;
+  }
+}
+
+
+@media (max-width:752px){
+  .sessao-frutas{
+    height: 1050vh;
+  }
+}
+
+@media (max-width:574px){
+  .sessao-frutas{
+    height: 1070vh;
+  }
+}
+
 

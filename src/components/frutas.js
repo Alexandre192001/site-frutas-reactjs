@@ -26,8 +26,6 @@ function FrutasSection(){
       <Goiaba/>
       <Pitanga/>
       <Pera/>
-    
-      
       </section>
     </Fragment>
   )

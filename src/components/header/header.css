@@ -22,7 +22,7 @@
   justify-content: center;
 }
 .cabecalho-page > img{
-  animation: anima-header 3s infinite;
+  animation: anima-header 5s infinite;
   height:100%;
   width: 100%;
   object-fit: cover;
