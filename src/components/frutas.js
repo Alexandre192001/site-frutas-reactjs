@@ -15,7 +15,7 @@ function FrutasSection(){
   return (
     <Fragment>
       <section id="frutas" className="sessao-frutas">
-      <div className="frutas-element">
+     
       <Laranja/>
       <Limao/>
       <Maca/>
@@ -26,7 +26,7 @@ function FrutasSection(){
       <Goiaba/>
       <Pitanga/>
       <Pera/>
-      </div>
+    
       
       </section>
     </Fragment>
