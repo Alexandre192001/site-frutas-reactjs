@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+  --font-1--:"Lobster";
+  --font-2--:"Permanent Marker";
+  --background-color-1--:#292935;
+  --background-color-2--:#21FCC7;
+  --background-color-3--:#20B08D;
+  --background-color-4--:#2039B0;
+  --background-color-5--:#484d64;
+}
+.sessao-frutas{
+  position: relative;
+  height:1050vh;
+  width: 100%;
+  background-color:var(--background-color-1--);
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  overflow:hidden;
+}
+
+
+.card-wrapper{
+  background-color: var(--background-color-5--);
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:.4rem ;
+  justify-content:center;
+}
+
+.img-fruta{
+  width: 25rem;
+  max-width: 95%;
+  border-radius:.4rem;
+}
+
+.info-fruta{
+  max-width: 80%;
+  color: rgb(245, 245, 245);
+  font-family:var(--font-2--);
+  letter-spacing:2px;
+}
+.info-fruta>ul>li{
+  margin: 1rem;
+}
+
+.frutas-element{
+  position: absolute;
+  top: 5rem;
+  display:flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin:2rem ; 
+  justify-content:space-around;
+}
