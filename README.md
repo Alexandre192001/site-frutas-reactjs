@@ -1,4 +1,4 @@
-<h1>Tela de login - ReactJs</h1>
+<h1>Frutas e seus Benefícios - ReactJs</h1>
 <hr>
 <h2>Linguagens Utilizadas:</h2>
 
@@ -11,7 +11,7 @@
 </div>
 <hr>
 <h2>⚜️Descriçao⚜️</h2>
-<p>Tela de login básica, primeiro projeto utilizando reactjs, sem funcionalidades.</p>
+<p>Site com intuito informativo, informando para o usuário os benefícios de algumas frutas para nosso corpo.</p>
 <hr>
 
-Link: https://login-react-alexandre.netlify.app/
+Link: https://frutas-beneficios-react-alexandre.netlify.app/
