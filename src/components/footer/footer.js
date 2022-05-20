@@ -11,7 +11,7 @@ function FooterPage(){
     </p>
     <div class="icones-footer-contatos">
       <div class="element-footer-ico">
-       <p>Contato - (82) 9 94165918</p>
+       <p>Contato - (82) 9 9416-5918</p>
       </div>
       <div class="element-footer-ico">
     
