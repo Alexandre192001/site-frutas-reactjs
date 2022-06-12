@@ -15,7 +15,6 @@ function FrutasSection(){
   return (
     <Fragment>
       <section id="frutas" className="sessao-frutas">
-     
       <Laranja/>
       <Limao/>
       <Maca/>
