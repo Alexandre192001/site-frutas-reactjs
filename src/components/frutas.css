@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap');
 :root{
   --font-1--:"Lobster";
-  --font-2--:"Permanent Marker";
+  --font-2--:"Jost";
   --background-color-1--:#292935;
   --background-color-2--:#21FCC7;
   --background-color-3--:#20B08D;
   --background-color-4--:#2039B0;
   --background-color-5--:#484d64;
 }
+
 .sessao-frutas{
   position: relative;
-  height:600vh;
+  height:315rem;
   width: 100%;
   background-color:var(--background-color-1--);
   gap: 1rem;
@@ -21,85 +22,82 @@
   overflow:hidden;
 }
 
-
 .card-wrapper{
   background-color: var(--background-color-5--);
   margin:1rem;
   padding: 1rem 1rem;
   display: flex;  
-  width: 80%;
-  max-width:80%;
-  gap: 1rem;
+  flex-direction:column;
+  width: 50rem;
+  max-width:90%;
   flex-wrap: wrap;
+  text-align: center;
   align-items: center;
+  justify-content: center;
   border-radius:.4rem ; 
 }
 
 .img-fruta{
-  width: 25rem;
-  max-width: 95%;
+  width: 15rem;
   border-radius:.4rem;
 }
 
 .info-fruta{
-  max-width: 80%;
+  max-width: 90%;
   color: rgb(245, 245, 245);
   font-family:var(--font-2--);
-  letter-spacing:2px;
+  letter-spacing:1px;
 }
 .info-fruta>ul>li{
   margin: 1rem;
 }
 
-
-
-
-@media (max-width:1109px){
+@media(max-width:594px){
   .sessao-frutas{
-    height:800vh;
+  height:318rem;
   }
+  
 }
 
-@media (max-width:1076px){
+@media(max-width:580px){
   .sessao-frutas{
-    height:850vh;
+  height:325rem;
   }
+  
 }
 
-@media (max-width:1068px){
+@media(max-width:493px){
   .sessao-frutas{
-    height:870vh;
+  height:330rem;
+  
   }
+
+  .info-fruta{
+    font-size:15px;
+  }
+  
 }
 
-@media (max-width:1027px){
+@media(max-width:399px){
   .sessao-frutas{
-    height:910vh;
+  height:340rem;
+  
   }
-}
-@media (max-width:990px){
-  .sessao-frutas{
-    height:950vh;
-  }
+  
 }
 
-@media (max-width:877px){
+@media(max-width:360px){
   .sessao-frutas{
-    height: 1000vh;
+  height:350rem;
+  }  
+}
+  
+@media(max-width:327px){
+  .sessao-frutas{
+  height:300rem;
+  }  
+  .info-fruta{
+    font-size:10px;
   }
 }
-
-
-@media (max-width:752px){
-  .sessao-frutas{
-    height: 1050vh;
-  }
-}
-
-@media (max-width:574px){
-  .sessao-frutas{
-    height: 1070vh;
-  }
-}
-
 

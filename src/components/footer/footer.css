@@ -29,3 +29,10 @@
   border-radius: .4rem;
   color:#fff;
 }
+@media(max-width:594px){
+  .footer-page{
+    height:20rem;
+    flex-direction:column;
+    text-align:center;
+  }
+}
