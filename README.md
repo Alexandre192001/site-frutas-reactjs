@@ -9,7 +9,7 @@
 </div>
 <hr>
 <h2>⚜️Descriçao⚜️</h2>
-<p>Site com intuito informativo, informando para o usuário os benefícios de algumas frutas para nosso corpo.</p>
+<p>Site com intuito informativo, informando para o usuário os benefícios de algumas frutas para o corpo humano.</p>
 <hr>
 
 Link: https://frutas-beneficios-react-alexandre.netlify.app/
