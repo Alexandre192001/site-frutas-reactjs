@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Style from './footer.module.css';
-import ImgFooter from '../../img/img-site-frutas.jpg';
+import ImgFooter from '../../img/img-site-frutas.jpg'
 
 export default function Footer(){
   return(

@@ -13,6 +13,7 @@
    overflow: hidden;
    border-bottom-left-radius: 10rem;
    border-bottom-right-radius: 10rem;
+   overflow: hidden;
 }
 
 .sessao_finally img{
@@ -21,4 +22,32 @@
 
 .title_finally{
   font-size:3rem;
+}
+
+@media(max-width:1514px){
+  .sessao_finally{
+    flex-direction: column;
+  }
+  .title_finally{
+    font-size:2rem;
+  }
+}
+
+@media(max-width:730px){
+  .sessao_finally img{
+    width: 20rem;
+  }
+  .title_finally{
+    text-align:center;
+  }
+}
+
+@media(max-width:389px){
+  .title_finally{
+    font-size:1rem
+  }
+
+  .sessao_finally img{
+    width: 90%;
+  }
 }

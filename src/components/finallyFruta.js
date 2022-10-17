@@ -9,7 +9,7 @@ export default function FinallySection(){
         <img src = {ImgFinally} alt="img-finally"></img>
 
         <div className={Style.descriptionFinally}>
-          <h1 className={Style.title_finally}>Faça valer cara minuto. Aproveite seu dia !</h1>
+          <h1 className={Style.title_finally}>Faça valer cada minuto. Aproveite seu dia !</h1>
         </div>
       </section>
     </Fragment>

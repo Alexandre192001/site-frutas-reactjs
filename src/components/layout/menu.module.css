@@ -7,6 +7,7 @@
   display:flex;
   align-items:center;
   justify-content:space-between;
+  overflow: hidden;
 }
 
 .title_menu{
@@ -17,4 +18,16 @@
 
 .img_menu{
   width: 15rem;
+}
+
+@media(max-width:389px){
+  .menu_nav{
+    flex-direction: column;
+    justify-content:center;
+    height: 17rem;
+  }
+  
+  .menu_nav .img_menu{
+    order: -1;
+  }
 }

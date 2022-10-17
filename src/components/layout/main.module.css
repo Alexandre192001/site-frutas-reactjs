@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--font-Lobster--);
+  overflow: hidden;
 }
 
 .container_main_wrapper{
@@ -55,4 +56,40 @@
   font-family: var(--font-fredoka--);
 }
 
+@media(max-width:1514px){
+  .sessao_main{
+    height: 65rem;
+  }
+
+  .container_main_wrapper{
+    flex-direction:column;
+  }
+}
+
+@media(max-width:517px){
+  .card{
+    width: 100%;
+  }
+  .sessao_main{
+    height: 70rem;
+  }
+}
+
+@media(max-width:389px){
+  .sessao_main{
+    height: 73rem;
+  }
+  .title_main{
+    font-size:2rem;
+  }
+  .title_card{
+    font-size:1.5rem;
+  }
+  .Paragraph_card{
+    font-size:1rem;
+  }
+  .icone_card{
+    width: 3rem;
+  }
+}
 

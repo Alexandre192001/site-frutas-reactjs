@@ -6,6 +6,7 @@
   height: 240rem;
   overflow: hidden;
   font-family: var(--font-fredoka--);
+  overflow: hidden;
 }
 
 .cardFruta_wrapper{
@@ -65,6 +66,44 @@
 
 .card_Img  img{
   width: 20rem;
+}
+
+@media(max-width:754px){
+  .cardFruta_wrapper{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+.cardFruta_wrapper:nth-child(1) .card_Img{
+  order: -1;
+}
+.cardFruta_wrapper:nth-child(2) .card_Img{
+  order: -1;
+}
+
+.cardFruta_wrapper:nth-child(3) .card_Img{
+  order: -1;
+}
+
+.cardFruta_wrapper:nth-child(4) .card_Img{
+  order: -1;
+}
+
+.cardFruta_wrapper:nth-child(5) .card_Img{
+  order: -1;
+}
+
+.card_Img img{
+  width: 10rem;
+}
+
+}
+
+@media(max-width:389px){
+  .title_fruta{
+    font-size:2rem
+  }
 }
 
 
