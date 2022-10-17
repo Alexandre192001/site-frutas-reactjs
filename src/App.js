@@ -1,16 +1,21 @@
 import React, {Fragment} from 'react'
 import './App.css';
 
-import HeaderPage from './components/header/header'
-import FrutasPage from './components/frutas'
-import FooterPage from './components/footer/footer'
+import Menu from "./components/layout/menu"
+import Header from "./components/layout/header"
+import Main from './components/layout/main'
+import SectionFrutas from './components/frutas'
+import Footer from './components/layout/footer'
 
 function App() {
   return (
     <Fragment>
-      <HeaderPage/>
-      <FrutasPage/>
-      <FooterPage/>
+      <Menu/>
+      <Header/>
+      <Main/>
+      <SectionFrutas/>
+      <Menu/>
+      <Footer/>
     </Fragment>
   )
 }

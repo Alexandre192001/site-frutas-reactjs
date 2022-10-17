@@ -1,0 +1,55 @@
+@import "../../App.css";
+
+.sessao_header{
+  background-color: #fee600;
+  color: #000;
+  font-family: var(--font-Lobster--);
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  overflow:hidden;
+}
+
+.container_wrapper{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container_description{
+  display: flex;
+  margin:2rem;
+  flex-direction: column;
+  justify-content:space-around;
+  gap: 2rem;
+}
+
+.title_header{
+  font-size:9rem;
+}
+
+.paragrapho_header{
+  font-size:2rem;
+}
+
+.btn_header{
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  border-radius: .4rem;
+  border: solid 1px #000;
+  width: 10rem;
+  font-size:20px;
+}
+
+.container_img{
+  height: 100%;
+  object-fit:cover;
+}
+
