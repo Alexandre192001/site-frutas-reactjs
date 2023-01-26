@@ -14,9 +14,7 @@ export default function Footer(){
               <h1 className={Style.title_footer}>FrutBen</h1>
 
               <div className={Style.redeSocial_footer}>
-                <a href="https://www.linkedin.com/in/alexandre-j%C3%BAnior-front-end/">Linkedin</a>
-                <a href="https://github.com/Alexandre192001">Github</a>
-                <a href="https://frontend-alexandrejr.netlify.app/">Voltar</a>
+                <a href="https://portfolio-pessoal-alexandre.netlify.app/">Voltar</a>
               </div>
           </div>
       </footer>
