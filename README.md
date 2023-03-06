@@ -1,4 +1,4 @@
-<h1>Frutas e seus Benefícios - ReactJs</h1>
+<h1>Frutas e seus Benefícios </h1>
 <hr>
 <h2>Linguagens Utilizadas:</h2>
 
